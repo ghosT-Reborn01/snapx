@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapX</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/snapx.css">
+</head>
+
+<body>
+    <header class=" header sticky-top">
+        <div class="container-fluid">
+            <div class="row d-flex flex-wrap">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white py-0">
+                        <div class="col-3"><a href="#" class="d-flex justify-content-center"><img src="images/logo.png"
+                                    alt="" srcset="" /></a></div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto py-3 header__background header__position">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white;">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" style="color: white;" href="#"
+                                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Photos &amp; Videos
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Contests</a>
+                                        <a class="dropdown-item" href="#">Single Contest</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color: white;" href="#">Categories</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color: white;" href="#">Users</a>
+                                </li>
+                            </ul>
+                            <button
+                                class="navm btn btn-outline-primary d-flex justify-content-center px-4 py-2 my-2 my-lg-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="25" fill="currentColor"
+                                    class="bi bi-person-fill" viewBox="2 0 15 15">
+                                    <path
+                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+                                Sign In/Up
+                            </button>
+                        </div>
+                </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <div class="banner container-fluid">
+        <div class="banner__main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+
+                    </div>
+                    <div class="header-text col-8">
+                        <h1 class="banner__text">Enter a world of <em>Photos</em> &amp; Amazing <em>Awards</em></h1>
+                        <hr class="banner__line">
+                        <p class="banner__text">SnapX Photography is a professional website template with 5 different HTML
+                            pages for maximum
+                            customizations. It is free for commercial usage. This Bootstrap v5.1.3 CSS layout is
+                            provided by TemplateMo Free CSS Templates.</p>
+                        <div class="buttons row d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-light">Explore SnapX Contest</button>
+                            <button type="button" class="btn btn-outline-light border-0"> Watch Our Video Now</button>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner end -->
+    <div class="carousal carousal__position">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/featured-03.jpg" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col  carousal__card--hide">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/featured-01.jpg" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col  carousal__card--hide">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/featured-02.jpg" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/featured-01.jpg" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col  carousal__card--hide">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/featured-02.jpg" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col  carousal__card--hide">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/featured-03.jpg" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/featured-02.jpg" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col  carousal__card--hide">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/featured-01.jpg" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col  carousal__card--hide">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/featured-03.jpg" alt="Card image cap">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" style="background-color: gray; border-radius: 50px;"
+                aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" style="background-color: gray; border-radius: 50px;"
+                aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+    <!-- carousal end -->
+    <section class="popularCategories__margin">
+        <div class="container-fluid">
+            <div class="my-4 py-4 row container-fluid">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="section-heading my-4">
+                        <h6 class=secondary_color>Our Categories</h6>
+                        <h4>Check Out <em>Popular</em> Contest <em>Categories</em></h4>
+                    </div>
+                </div>
+                <div class="mt-4 col-sm-12 col-lg-6 d-flex align-items-end flex-column">
+                    <button class=" rounded btn btn-primary ">
+                        Discover All Categories
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card mx-4 rounded mx-auto" style="width: 18rem;">
+                    <div class="row h-25 m-auto">
+                        <div class="col-3 m-auto">
+                            <img class="" src="assets/images/icon-01.png" alt="">
+                        </div>
+                        <div class="col my-2">
+                            <h5>Nature Pic Contest</h5>
+                            <span><em>126</em> Available Contests</span>
+                        </div>
+                    </div>
+                    <img class="px-4" src="assets/images/popular-01.png" alt="">
+                    <button class="btn btn-outline-primary m-4 ">
+                        Browse Nature Pic Contests
+                    </button>
+                </div>
+                <div class="card mx-4 rounded mx-auto" style="width: 18rem;">
+                    <div class="row h-25 m-auto">
+                        <div class="col-3 m-auto">
+                            <img class="m-2 mt-3" src="assets/images/icon-02.png" alt="">
+                        </div>
+                        <div class="col my-2">
+                            <h5>Random Pic Contest</h5>
+                            <span><em>116</em> Available Contests</span>
+                        </div>
+                    </div>
+                    <img class="px-4" src="assets/images/popular-02.png" alt="">
+                    <button class="btn btn-outline-primary m-4 ">
+                        Browse Nature Pic Contests
+                    </button>
+                </div>
+                <div class="card mx-4 rounded mx-auto" style="width: 18rem;">
+                    <div class="row h-25 m-auto">
+                        <div class="col-3 m-auto">
+                            <img class="m-2 mt-3" src="assets/images/icon-03.png" alt="">
+                        </div>
+                        <div class="col my-2">
+                            <h5>Portrait Pic Contest</h5>
+                            <span><em>164</em> Available Contests</span>
+                        </div>
+                    </div>
+                    <img class="px-4" src="assets/images/popular-03.png" alt="">
+                    <button class="btn btn-outline-primary m-4 ">
+                        Browse Nature Pic Contests
+                    </button>
+                </div>
+                <div class="card mx-4 rounded mx-auto" style="width: 18rem;">
+                    <div class="row m-1  h-25">
+                        <div class="col-3 m-auto">
+                            <img class="m-2 mt-3" src="assets/images/icon-04.png" alt="">
+                        </div>
+                        <div class="col my-2">
+                            <h5>Space Pic Contest</h5>
+                            <span><em>135</em> Available Contests</span>
+                        </div>
+                    </div>
+                    <img class="px-4" src="assets/images/popular-04.png" alt="">
+                    <button class="btn btn-outline-primary m-4 ">
+                        Browse Nature Pic Contests
+                    </button>
+                </div>
+            </div>
+    </section>
+    <!-- Our Categories end -->
+    <section class=" closed__contests mt-5">
+        <div class="col-lg-12">
+            <div class="section-heading text-center">
+                <h6 class="secondary_color">Closed Photography Contests</h6>
+                <h4><em>Previous Contests</em> With Handpicked <em>Winners</em></h4>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="p-4 col-lg-4 col-sm-12 ">
+                    <img class="rounded mx-auto d-block" src="assets/images/closed-02.jpg" alt="">
+                    <div class="float-left">
+                        <h6>96 Participants <br><span>Number Of Artists</span></h6>
+                    </div>
+                    <div class="float-right">
+                        <h6 class="">410 Pictures <br>Submited Pics<h6>
+                    </div>
+                </div>
+                <div class="p-4 col-lg-4 col-sm-12 ">
+                    <img class="rounded mx-auto d-block" src="assets/images/closed-03.jpg" alt="">
+                    <div class="float-left">
+                        <h6>74 Participants <br><span>Number Of Artists</span></h6>
+                    </div>
+                    <div class="float-right">
+                        <h6 class="">284 Pictures <br>Submited Pics<h6>
+                    </div>
+                </div>
+                <div class="p-4 col-lg-4 col-sm-12 ">
+                    <img class="rounded mx-auto d-block" src="assets/images/closed-01.jpg" alt="">
+                    <div class="float-left">
+                        <h6>88 Participants <br><span>Number Of Artists</span></h6>
+                    </div>
+                    <div class="float-right">
+                        <h6 class="">320 Pictures <br>Submited Pics<h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class=" btn btn-outline-primary">
+                Browse Open Contests
+            </button>
+        </div>
+    </section>
+    <!--Closed Photography Contests end -->
+
+    <section class="container-fluid mb-5 pb-5">
+        <div class="container-fluid">
+            <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <h6 class="secondary_color mt-5">Our Pricing</h6>
+                    <h4>Photography <em>Contest Plans</em> and Price <em>Awards</em></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="row mx-auto text-center">
+                    <div class="card rounded mx-auto text-center" style="width: 22rem;">
+                        <div class="pricing-plan">
+                            <img src="assets/images/pricing-01.jpg" alt="">
+                            <h2 class="pricing-header">Basic Plan</h2>
+                            <hr>
+                            <ul class="first-plan list-unstyled">
+                                <li class=secondary_color>
+                                    <p> Lorem Ipsum Dolores Sonte</p>
+                                </li>
+                                <li class=secondary_color>
+                                    <p> Songe Lorem Ipsum Dol</p>
+                                </li>
+                                <li class=secondary_color>
+                                    <p>Matrios Venga Heptuss</p>
+                                </li>
+                                <li>
+                                    <p> <del>Denim Sriracha Kogi</del></p>
+                                </li>
+                                <li>
+                                    <p> <del>Digital Photography Awards</del></p>
+                                </li>
+                            </ul>
+                            <div class=secondary_color>
+                                <h2 class="mt-4">$25USD</h2>
+                            </div>
+                            <div class="d-flex justify-content-center mt-5">
+                                <button
+                                    class="btn btn-outline-primary d-flex justify-content-center px-4 py-2 my-2 my-lg-0">
+                                    Chose The Plan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded mx-auto text-center" style="width: 22rem;">
+                        <div class="pricing-plan">
+                            <img src="assets/images/pricing-01.jpg" alt="">
+                            <h2 class="pricing-header">Basic Plan</h2>
+                            <hr>
+                            <ul class="first-plan list-unstyled">
+                                <li class=secondary_color>
+                                    <p> Lorem Ipsum Dolores Sonte</p>
+                                </li>
+                                <li class=secondary_color>
+                                    <p> Songe Lorem Ipsum Dol</p>
+                                </li>
+                                <li class=secondary_color>
+                                    <p>Matrios Venga Heptuss</p>
+                                </li>
+                                <li>
+                                    <p> <del>Denim Sriracha Kogi</del></p>
+                                </li>
+                                <li>
+                                    <p> <del>Digital Photography Awards</del></p>
+                                </li>
+                            </ul>
+                            <div class=secondary_color>
+                                <h2 class="mt-4">$25USD</h2>
+                            </div>
+                            <div class="d-flex justify-content-center mt-5">
+                                <button
+                                    class="btn btn-outline-primary d-flex justify-content-center px-4 py-2 my-2 my-lg-0">
+                                    Chose The Plan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded mx-auto text-center" style="width: 22rem;">
+                        <div class="pricing-plan">
+                            <img src="assets/images/pricing-01.jpg" alt="">
+                            <h2 class="pricing-header">Basic Plan</h2>
+                            <hr>
+                            <ul class="first-plan list-unstyled">
+                                <li class=secondary_color>
+                                    <p> Lorem Ipsum Dolores Sonte</p>
+                                </li>
+                                <li class=secondary_color>
+                                    <p> Songe Lorem Ipsum Dol</p>
+                                </li>
+                                <li class=secondary_color>
+                                    <p>Matrios Venga Heptuss</p>
+                                </li>
+                                <li>
+                                    <p> <del>Denim Sriracha Kogi</del></p>
+                                </li>
+                                <li>
+                                    <p> <del>Digital Photography Awards</del></p>
+                                </li>
+                            </ul>
+                            <div class=secondary_color>
+                                <h2 class="mt-4">$25USD</h2>
+                            </div>
+                            <div class="d-flex justify-content-center mt-5">
+                                <button
+                                    class="btn btn-outline-primary d-flex justify-content-center px-4 py-2 my-2 my-lg-0">
+                                    Chose The Plan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </section>
+    <!-- pricing section end -->
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3" style="background-color: #00bdfe; color: white;">
+            <p>
+                Copyright © 2022 SnapX Photo Contest Co., Ltd. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
