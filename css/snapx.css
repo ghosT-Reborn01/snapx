@@ -9,8 +9,15 @@ em {
 .header__background {
   background-color: #00bdfe;
 }
+
 .header__position {
   margin-left: 135px;
+}
+
+@media only screen and (max-width: 600px){
+  .header__position {
+    margin-left: 0px;
+  }
 }
 
 .banner__main {
